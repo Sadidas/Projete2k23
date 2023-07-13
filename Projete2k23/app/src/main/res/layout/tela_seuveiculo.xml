@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/vwRetanLaran"
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:background="@drawable/retangulolaranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwContornoBotao"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/botao_parrearpreto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:background="@drawable/botao_parrearlaran"
+        android:text="Parrear com outro carro"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwContornoBotao"
+        app:layout_constraintEnd_toEndOf="@+id/vwContornoBotao"
+        app:layout_constraintStart_toStartOf="@+id/vwContornoBotao"
+        app:layout_constraintTop_toTopOf="@+id/vwContornoBotao" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/onix"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chevrolet Onix"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:paddingTop="40dp"
+        android:paddingLeft="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chevrolet"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vwRetanLaran" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
