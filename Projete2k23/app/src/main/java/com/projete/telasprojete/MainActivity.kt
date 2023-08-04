@@ -13,34 +13,23 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.projete.telasprojete.ui.theme.TelasProjeteTheme
 
 class MainActivity : ComponentActivity() {
+    Button switchToSecondActivity;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            TelasProjeteTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
+        Button switchToSecondActivity;
+        setContentView(R.layout.activity_first);
+
+        switchToSecondActivity = findViewById(R.id.activity_first_button);
+        switchToSecondActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switchActivities();
             }
-        }
+        });
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TelasProjeteTheme {
-        Greeting("Android")
+    private void switchActivities() {
+        Intent switchActivityIntent = new Intent(this, SecondActivity.class);
+        startActivity(switchActivityIntent);
     }
 }
