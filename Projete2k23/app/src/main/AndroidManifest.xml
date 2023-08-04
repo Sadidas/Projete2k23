@@ -13,10 +13,17 @@
         android:theme="@style/Theme.TelasProjete"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaPrincipal"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.TelasProjete">
+            android:label="@string/app_name">
+        <activity
+            android:name=".TelaMapa"
+            android:exported="true"
+            android:label="@string/app_name">
+        <activity
+            android:name=".TelaSeuveiculo"
+            android:exported="true"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
