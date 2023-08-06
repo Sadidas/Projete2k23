@@ -2,10 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical">
     <!--android:background="@drawable/background_principal"-->
 
@@ -24,12 +22,10 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:background="@drawable/bolabranca"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintTop_toBottomOf="@+id/space4" />
 
     <View
         android:id="@+id/vwBolaLaranja"
@@ -50,7 +46,7 @@
         android:paddingTop="4dp"
         android:paddingEnd="6dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/Correiozin_botao"
+        android:src="@drawable/correiozin_botao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,13 +54,12 @@
         android:id="@+id/vwBolaAzulCarta"
         android:layout_width="20dp"
         android:layout_height="20dp"
-
         android:background="@drawable/bolaazul"
         app:layout_constraintEnd_toEndOf="@id/btnCarta"
         app:layout_constraintTop_toTopOf="@id/btnCarta" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvNumeroNotificacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="1dp"
@@ -85,7 +80,7 @@
         android:paddingStart="6dp"
         android:paddingTop="8dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/Lista_botao"
+        android:src="@drawable/lista_botao"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,8 +88,7 @@
         android:id="@+id/tvIntroducao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/quartzobold"
-        android:paddingTop="22dp"
+        android:fontFamily="@font/interblack"
         android:text="Olá"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -111,6 +105,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="17sp"
+        android:fontFamily="@font/intermedium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvIntroducao" />
@@ -179,6 +174,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Seu Veículo"
+                android:fontFamily="@font/intermedium"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="17sp" />
@@ -190,6 +186,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mecânico"
+                android:fontFamily="@font/intermedium"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="17sp" />
@@ -208,7 +205,7 @@
                 android:contentDescription="Icone de mudanca de mecanico"
                 android:hint="Mudar Mecanico"
                 android:scaleType="fitCenter"
-                android:src="@drawable/Mudar_botao" />
+                android:src="@drawable/mudar_botao" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -222,7 +219,7 @@
                 android:background="@drawable/button_background"
                 android:contentDescription="Icone de mapa"
                 android:scaleType="fitCenter"
-                android:src="@drawable/Mapa_botao" />
+                android:src="@drawable/mapa_botao" />
         </TableRow>
 
         <TableRow
@@ -235,8 +232,9 @@
                 android:layout_height="wrap_content"
                 android:text="Mudar Mecânico"
                 android:textAlignment="center"
+                android:fontFamily="@font/intermedium"
                 android:textColor="@color/black"
-                android:textSize="17sp" />
+                android:textSize="15sp" />
 
             <Space></Space>
 
@@ -245,11 +243,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mapa"
+                android:fontFamily="@font/intermedium"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="17sp" />
         </TableRow>
 
     </TableLayout>
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnCarta"
+        app:layout_constraintStart_toEndOf="@+id/btnLista"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

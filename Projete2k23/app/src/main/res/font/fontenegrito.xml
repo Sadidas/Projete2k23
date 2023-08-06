@@ -7,5 +7,17 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/THEBOLDFONT"/>
+        android:font="@font/theboldfont"/>
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/intermedium"/>
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/interblack"/>
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/interextrabold"/>
 </font-family>
