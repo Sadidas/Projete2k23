@@ -8,7 +8,7 @@
 
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/vwRetanLaran"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/retangulolaranja"
@@ -17,33 +17,49 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view4"
+        android:id="@+id/vwRetanGrande"
+        android:layout_width="380dp"
+        android:layout_height="370dp"
+        android:background="@drawable/retan_backreto"
+        app:layout_constraintBottom_toTopOf="@+id/vwRetanPequeno1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwRetanLaran" />
+
+    <View
+        android:id="@+id/vwRetanPequeno1"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:background="@drawable/retan_backbranco"
-        app:layout_constraintBottom_toTopOf="@+id/space3"
+        app:layout_constraintBottom_toTopOf="@+id/spcMeio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Space
+        android:id="@+id/spcMeio"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/vwRetanPequeno3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <View
-        android:id="@+id/view2"
-        android:layout_width="wrap_content"
+        android:id="@+id/vwRetanPequeno3"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/retan_backbranco"
-        app:layout_constraintBottom_toTopOf="@+id/space2"
+        app:layout_constraintBottom_toTopOf="@+id/spcBaixo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <View
-        android:id="@+id/view3"
+    <Space
+        android:id="@+id/spcBaixo"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/retan_backbranco"
-        app:layout_constraintBottom_toTopOf="@+id/space"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -55,8 +71,8 @@
         android:paddingTop="5dp"
         android:scaleType="fitCenter"
         android:src="@drawable/lista_botao"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanLaran"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
@@ -69,7 +85,7 @@
         android:paddingEnd="6dp"
         android:scaleType="fitCenter"
         android:src="@drawable/correiozin_botao"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,34 +117,10 @@
         android:adjustViewBounds="true"
         android:scaleType="fitStart"
         android:src="@drawable/termometro"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanPequeno1"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4" />
-
-    <Space
-        android:id="@+id/space"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Space
-        android:id="@+id/space2"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/view3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Space
-        android:id="@+id/space3"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/view2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/vwRetanPequeno1"
+        app:layout_constraintTop_toTopOf="@+id/vwRetanPequeno1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -141,8 +133,8 @@
         android:fontFamily="@font/intermedium"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4" />
+        app:layout_constraintStart_toStartOf="@+id/vwRetanPequeno1"
+        app:layout_constraintTop_toTopOf="@+id/vwRetanPequeno1" />
 
     <TextView
         android:id="@+id/textView3"
@@ -151,47 +143,10 @@
         android:text="85°C"
         android:textSize="30sp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="@+id/view4"
-        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanPequeno1"
+        app:layout_constraintEnd_toEndOf="@+id/vwRetanPequeno1"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanPequeno1"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitStart"
-        android:src="@drawable/gasosa"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="5sp"
-        android:text="Consumo de Gasolina"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:fontFamily="@font/intermedium"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bom"
-        android:textSize="30sp"
-        android:textColor="@color/green"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -200,10 +155,10 @@
         android:adjustViewBounds="true"
         android:scaleType="fitStart"
         android:src="@drawable/velocimetro"
-        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanPequeno3"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/view3"
-        app:layout_constraintTop_toBottomOf="@+id/space2" />
+        app:layout_constraintStart_toStartOf="@+id/vwRetanPequeno3"
+        app:layout_constraintTop_toBottomOf="@+id/spcMeio" />
 
     <TextView
         android:id="@+id/textView6"
@@ -215,7 +170,7 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view3" />
+        app:layout_constraintTop_toTopOf="@+id/vwRetanPequeno3" />
 
     <TextView
         android:id="@+id/textView7"
@@ -224,20 +179,10 @@
         android:text="62 km/h"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanPequeno3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <View
-        android:id="@+id/view5"
-        android:layout_width="380dp"
-        android:layout_height="300dp"
-        android:background="@drawable/retan_backbranco"
-        app:layout_constraintBottom_toTopOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <TextView
         android:id="@+id/textView"
@@ -247,10 +192,74 @@
         android:textSize="27sp"
         android:fontFamily="@font/interextrabold"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
         app:layout_constraintEnd_toStartOf="@+id/btnCarta"
         app:layout_constraintStart_toEndOf="@+id/btnLista"
-        app:layout_constraintTop_toTopOf="@+id/view" />
+        app:layout_constraintTop_toTopOf="@+id/vwRetanLaran" />
+
+    <ImageView
+        android:id="@+id/vwQuadrado_preto"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/vwRetanGrande"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanGrande"
+        app:layout_constraintTop_toTopOf="@+id/vwRetanGrande" />
+
+    <ImageButton
+        android:id="@+id/btnAdicionarFoto"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/retan_cinzaretao"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camera"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vwQuadrado_preto"
+        app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto"
+        app:layout_constraintTop_toTopOf="@+id/vwQuadrado_preto"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modelo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/intermedium"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="@+id/vwRetanGrande"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanGrande" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marca"
+        android:fontFamily="@font/intermedium"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanGrande"
+        app:layout_constraintEnd_toEndOf="@+id/vwRetanGrande"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanGrande" />
+
+    <Button
+        android:id="@+id/btnMais"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:fontFamily="@font/interextrabold"
+        android:background="@drawable/bolaazul"
+        app:layout_constraintStart_toEndOf="@+id/vwQuadrado_preto"
+        app:layout_constraintTop_toBottomOf="@+id/vwQuadrado_preto" />
 
     <!--<ProgressBar
         android:id="@+id/progressBar2"

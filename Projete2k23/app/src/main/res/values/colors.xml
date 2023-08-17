@@ -10,4 +10,7 @@
     <color name="green">#FF40FF19</color>
     <color name="cinzinha">#FF7A746C</color>
     <color name="quase_branco">#FFEFEFEF</color>
+    <color name="quase_black">#FF150D0A</color>
+    <color name="laranja_primario">#FFFF5C00</color>
+    <color name="laranja_secundario">#FFEF7705</color>
 </resources>

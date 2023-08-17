@@ -45,13 +45,13 @@
         android:id="@+id/ivSolidLogo"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:paddingBottom="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/fox"
-        app:layout_constraintBottom_toTopOf="@+id/tvFrom"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFrom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/vwBackground" />
+        app:layout_constraintTop_toTopOf="@+id/vwBackground"
+        android:contentDescription="Logo_solid" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

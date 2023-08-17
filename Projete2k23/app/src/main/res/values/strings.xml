@@ -1,3 +1,16 @@
-<resources>
-    <string name="app_name">Telas Projete</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Projete2k23</string>
+    <string name="ola">Olá</string>
+    <string name="intro">Qual serviço você precisa hoje?</string>
+    <string name="usuario">S</string>
+    <string name="notificacoes_num">4</string>
+    <string name="botao_veiculo">Seu Veículo</string>
+    <string name="botao_mecanico">Mecânico</string>
+    <string name="botao_mudar">Mudar mecânico</string>
+    <string name="botao_mapa">Mapa</string>
+    <string name="botao_icone">botao icone</string>
+    <string name="botao_carta">botao carta</string>
+    <string name="tirar_foto">Tirar A Foto</string>
+    <string name="modelo">Carro ultra generico</string>
+    <string name="marca">Marca ultra generica 20xx</string>
 </resources>

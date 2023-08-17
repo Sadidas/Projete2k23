@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <View
-        android:id="@+id/view6"
+        android:id="@+id/vwRetanLaran"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/retangulolaranja"
@@ -14,17 +15,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Troca de mecânico"
-        android:textColor="@color/white"
-        android:fontFamily="@font/interextrabold"
+        android:text="Seu Veículo"
         android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:fontFamily="@font/interextrabold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
+        app:layout_constraintEnd_toStartOf="@+id/btnCarta"
+        app:layout_constraintStart_toEndOf="@+id/btnLista"
+        app:layout_constraintTop_toTopOf="@+id/vwRetanLaran" />
 
     <ImageButton
         android:id="@+id/btnLista"
@@ -35,8 +36,8 @@
         android:paddingTop="5dp"
         android:scaleType="fitCenter"
         android:src="@drawable/lista_botao"
-        app:layout_constraintBottom_toBottomOf="@+id/view6"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
+        app:layout_constraintStart_toStartOf="@+id/vwRetanLaran"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
@@ -49,7 +50,7 @@
         android:paddingEnd="6dp"
         android:scaleType="fitCenter"
         android:src="@drawable/correiozin_botao"
-        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintBottom_toBottomOf="@+id/vwRetanLaran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,5 +74,49 @@
         app:layout_constraintEnd_toEndOf="@+id/vwBolaAzulCarta"
         app:layout_constraintStart_toStartOf="@+id/vwBolaAzulCarta"
         app:layout_constraintTop_toTopOf="@+id/vwBolaAzulCarta" />
+
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/botao_voltar"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaEsquerda"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaEsquerda"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaEsquerda"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaEsquerda"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/vwBolaEsquerda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/redondo_laranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/vwBolaDireita"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/redondo_laranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/botao_confirmar"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaDireita"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaDireita"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaDireita"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaDireita"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
