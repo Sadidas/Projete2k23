@@ -118,5 +118,31 @@
         app:layout_constraintTop_toTopOf="@+id/vwBolaDireita"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/intermedium"
+        android:layout_marginTop="80dp"
+        android:text="Digite aqui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvModelo" />
+
+    <TextView
+        android:id="@+id/tvModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual é a marca do seu veículo?"
+        android:fontFamily="@font/interextrabold"
+        android:textSize="25sp"
+        android:textColor="@color/quase_black"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwRetanLaran" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
