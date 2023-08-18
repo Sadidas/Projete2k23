@@ -43,8 +43,6 @@ class VeiculoActivity : ComponentActivity() {
         botao_mais = findViewById(R.id.btnMais)
 
         botao_foto!!.setOnClickListener{
-            val intent_lista = Intent(this, ListafotoActivity::class.java)
-            startActivity(intent_lista)
             val permissao_dada = pedirPermissaoCamera()
             if (permissao_dada) {
                 abrir_interface_camera()
@@ -56,10 +54,8 @@ class VeiculoActivity : ComponentActivity() {
         }
 
         botao_mais!!.setOnClickListener {
-            val permissao_dada = pedirPermissaoCamera()
-            if (permissao_dada) {
-                abrir_interface_camera()
-            }
+            val intent_lista = Intent(this, ListafotoActivity::class.java)
+            startActivity(intent_lista)
         }
     }
 
