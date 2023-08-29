@@ -13,4 +13,5 @@
     <string name="tirar_foto">Tirar A Foto</string>
     <string name="modelo">Carro ultra generico</string>
     <string name="marca">Marca ultra generica 20xx</string>
+    <string name="pergunta_marca">Qual é a marca de seu veículo?</string>
 </resources>

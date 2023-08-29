@@ -219,10 +219,8 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/vwQuadrado_preto"
         app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto"
-        app:layout_constraintTop_toTopOf="@+id/vwQuadrado_preto"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/vwQuadrado_preto" />
 
     <TextView
         android:id="@+id/textView12"

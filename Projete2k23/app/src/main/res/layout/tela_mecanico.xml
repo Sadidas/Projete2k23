@@ -164,49 +164,20 @@
         app:layout_constraintEnd_toEndOf="@+id/vwRetanGrande"
         app:layout_constraintStart_toStartOf="@+id/vwRetanGrande" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/interextrabold"
-        android:text="Clique aqui para"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
-        app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto" />
-
-    <ImageView
-        android:id="@+id/ivCamera"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+    <ImageButton
+        android:id="@+id/btnAdicionarFoto"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitStart"
+        android:background="@drawable/retan_cinzaretao"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
         android:src="@drawable/camera"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/vwQuadrado_preto"
         app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
-        app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/interextrabold"
-        android:text="Adicionar uma foto"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/ivCamera"
-        app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
-        app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+"
-        android:textColor="@color/white"
-        android:textSize="70sp"
-        android:fontFamily="@font/interblack"
-        app:layout_constraintEnd_toEndOf="@+id/vwQuadrado_preto"
         app:layout_constraintStart_toStartOf="@+id/vwQuadrado_preto"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
+        app:layout_constraintTop_toTopOf="@+id/vwQuadrado_preto" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
