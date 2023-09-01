@@ -27,8 +27,12 @@ class ModeActivity : ComponentActivity() {
         texto_erro = findViewById(R.id.tvErro)
 
         btn_confirmar!!.setOnClickListener {
-            if(radio_mecan!!.isChecked or radio_user!!.isChecked){
-                val intent_princ = Intent(this, MainActivity::class.java)
+            if(radio_user!!.isChecked){
+                val intent_princ = Intent(this, UserMainActivity::class.java)
+                startActivity(intent_princ)
+            }
+            else if(radio_mecan!!.isChecked){
+                val intent_princ = Intent(this, MecanMainActivity::class.java)
                 startActivity(intent_princ)
             }
             else{
