@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:background="@drawable/background_principal"-->
+
+
+    <View
+        android:id="@+id/vwRetanLaran"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:background="@drawable/retangulolaranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwBolaBranca"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/bolabranca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space4" />
+
+    <View
+        android:id="@+id/vwBolaLaranja"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:background="@drawable/bolalaranja"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaBranca"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaBranca"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaBranca"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaBranca" />
+
+    <ImageButton
+        android:id="@+id/btnCarta"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/botao_carta"
+        android:paddingEnd="5dp"
+        android:paddingStart="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/correiozin_botao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwBolaAzulCarta"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bolaazul"
+        app:layout_constraintEnd_toEndOf="@id/btnCarta"
+        app:layout_constraintTop_toTopOf="@id/btnCarta" />
+
+    <TextView
+        android:id="@+id/tvNumeroNotificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/notificacoes_num"
+        android:textColor="#efefef"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaAzulCarta" />
+
+    <ImageButton
+        android:id="@+id/btnLista"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/botao_icone"
+        android:paddingTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lista_botao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIntroducao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interblack"
+        android:text="@string/ola"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwBolaBranca" />
+
+    <TextView
+        android:id="@+id/tvIntroducao2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/intermedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIntroducao" />
+
+
+    <TextView
+        android:id="@+id/tvLetrona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        android:textColor="#ffffff"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaLaranja"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaLaranja"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaLaranja"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaLaranja" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="56dp"
+        android:paddingEnd="43dp"
+        android:paddingBottom="75dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--android:paddingBottom="48dp"-->
+
+            <ImageButton
+                android:id="@+id/btnVeiculos"
+                android:layout_width="1dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:contentDescription="Icone de carro"
+                android:scaleType="fitCenter"
+                android:src="@drawable/carro_botao" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btnMecanico"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chave_botao"
+                android:contentDescription="@string/botao_mecanico" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botao_veiculo"
+                android:fontFamily="@font/intermedium"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Space android:layout_height="48dp" />
+
+            <TextView
+                android:id="@+id/tvbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botao_mecanico"
+                android:fontFamily="@font/intermedium"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnMudarMecanico"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mudar_botao"
+                android:contentDescription="@string/botao_mudar" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btnMapa"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:contentDescription="@string/botao_mapa"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mapa_botao" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botao_mudar"
+                android:textAlignment="center"
+                android:fontFamily="@font/intermedium"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Space></Space>
+
+            <TextView
+                android:id="@+id/tvbtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botao_mapa"
+                android:fontFamily="@font/intermedium"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnCarta"
+        app:layout_constraintStart_toEndOf="@+id/btnLista"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
