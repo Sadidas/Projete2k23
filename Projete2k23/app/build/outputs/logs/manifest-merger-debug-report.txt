@@ -1,0 +1,908 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:2:1-134:12
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\leona\.gradle\caches\transforms-3\18b4c5cc71e1eaaaf58b4939e8390068\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\7dbd04e58019cc35e4ccdb099962de03\transformed\activity-compose-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\a87bbfabdd7a4e8ed22e3f1e228e6677\transformed\material3-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\ccbc957fec2eb4a8bab3fe5e28179410\transformed\material-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8bbc67403e85fac71189bea697ee2758\transformed\material-ripple-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\f8599cd70be6edf5dedc1021580b8311\transformed\foundation-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\5a97fbb09d740cd69910b16ea7f20743\transformed\animation-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d1b3d053bf8b4ee1e74e9cfa5c2e0e45\transformed\foundation-layout-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\c8d17a5d72f4b2abcf5aa3b07caebc3e\transformed\animation-core-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\b6024fc51b59705df5327902330ce6f7\transformed\material-icons-core-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\3ae97633ee64f9bb1d9009ea33267de1\transformed\ui-tooling-data-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\eb9b45f3f59dc8299006a7be5b32d532\transformed\ui-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\1b60db37f2846bb83d86ef343b16e38c\transformed\ui-text-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0d794c906a0c724e6b1bcea3333f21a9\transformed\ui-graphics-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\a77319399bfc609c777fdeacf509ea44\transformed\ui-tooling-preview-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\014389d93acd29aaaeb797a7c527e8c1\transformed\runtime-saveable-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8dc49a4498f81a4eb51a3b878448b33c\transformed\ui-unit-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\2b906e96b5d2a0c78f23cd422a531d7a\transformed\ui-geometry-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d083596dd50ddda9c6e08917c4a7e19e\transformed\runtime-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\acf459cd85b12a1480a42abcc0fe8e69\transformed\activity-ktx-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\8199d44c08fed91330ba546709c3a4f7\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\0392dedbd558c8bfae8636f875b827b3\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\leona\.gradle\caches\transforms-3\1b0b5af5057cd55ac9d622b9ca14b3cf\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\leona\.gradle\caches\transforms-3\83795d6646110c0bf6ce758ed0d01a74\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\2f0dcdd062d4a3885576112c473751f6\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\e0d50a3b0be79c48a47cd733744975c0\transformed\appcompat-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\a7d3aba71fd5a4fbb38f1d8231e3552d\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\leona\.gradle\caches\transforms-3\223474e9ba6eb2f382919acf5191776e\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\leona\.gradle\caches\transforms-3\acff2749b21ccadb5f00285975ad3a27\transformed\play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c04f306e5b35e88bd072f02fb64b490\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\3be899bd86acdc0412c46e39bdab2813\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\leona\.gradle\caches\transforms-3\475474ecd405d1840a28680fedc73256\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\1e1d43ece5d607b075321234ff23fc29\transformed\play-services-measurement-sdk-21.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\7cf7580271e1b475f53fc5bfc5a1ccc0\transformed\integrity-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\a834bd6c2f109f287562721af36e0b6a\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\leona\.gradle\caches\transforms-3\5b281048dd28858dcf1fafb4173a6b39\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\a333ca33158495344e1439de6804e288\transformed\play-services-measurement-base-21.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\leona\.gradle\caches\transforms-3\fed972998367b57dd28464a9f7aaa594\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\leona\.gradle\caches\transforms-3\c33bf3adb93f2f3090e16f19ecfdeedf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c4ae8b87f017e1e27a92f1a4cc55781\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\.gradle\caches\transforms-3\84c02d170a0bb2c005e12e86be1d236e\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\1bfc5cb82e9368428776a1df17ddea3d\transformed\activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\499d601a37b2b703da3b250036466691\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\0b8a9556ad149442ae3ea8f827f6a25d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\4b207afc35ec93f1d2fe5c3bb3d7812f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4892b95c9281b811bff0367094378f66\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\ee5351f3a49d79f133f9db89d24b4a9b\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\4d4f7d023f6728c7d1bbbf502056167c\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\ea1ef38415d2136b84004708ba56f036\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\48dc93d3a19f68ffac87793965b61a45\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\39cf200e8d54e80d6f32277765e8d47c\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0467df81e759db616a32a0708efc9cfd\transformed\ui-util-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bfd220ba299595f55bbc83ceba4a43db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\54047f2534b8a3b3d2a39a627a5b1093\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\40e8e53fc2aa585acd5457e6c6830647\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bf50c30de9f3baefe1aab466a7cbb8cc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\99a2b530e8c3eef829b83c47b3a259fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\be8d37928f0ccff500f2404116968cc6\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\522b75b48daebe313b9c115b50b7c1b8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\467cd62b173cf4b26dca8e2f5909bd66\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\407a5e518f48608de73efe78d67f158b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\leona\.gradle\caches\transforms-3\969d41d62428ceefb837dbd8543079fb\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\9ff6e36a1f1ca75dce9ddb65560daaae\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4eacd5cb2b16d395b8658dd0441eb426\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leona\.gradle\caches\transforms-3\e5bae12216ab7cb6223b22ae0122b9ea\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\53c50e415b0a9b0c4ab789838be32846\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\41e60774082fc6a26c8507654993167a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\ed792ce98e2c7d5beec6cf047021b7c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\d8990a2967ca0cf46dd8ba595a95458c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\2f940e7af22aa25dd7227bf2ca7736ce\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\48323a43888a5356dfa853df1c8e108e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\30db181158ffcb5c98c386c3aec39143\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\eba95af3c73a6e8508a72f043eea3a76\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\c313713a9ec115603975888c5e3c2c9c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\leona\.gradle\caches\transforms-3\4b8329bc72dd78af02fd63ff34dc4543\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\dedcef165bcf185deff1ec3389e9ac78\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\3d3db20d57f0050ab11c4d494805c76d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:6:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:9:9-47
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:14:5-64
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:14:22-62
+application
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:16:5-133:19
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:16:5-133:19
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\leona\.gradle\caches\transforms-3\1b0b5af5057cd55ac9d622b9ca14b3cf\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\leona\.gradle\caches\transforms-3\1b0b5af5057cd55ac9d622b9ca14b3cf\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\leona\.gradle\caches\transforms-3\83795d6646110c0bf6ce758ed0d01a74\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\leona\.gradle\caches\transforms-3\83795d6646110c0bf6ce758ed0d01a74\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\leona\.gradle\caches\transforms-3\acff2749b21ccadb5f00285975ad3a27\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\leona\.gradle\caches\transforms-3\acff2749b21ccadb5f00285975ad3a27\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c04f306e5b35e88bd072f02fb64b490\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c04f306e5b35e88bd072f02fb64b490\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\3be899bd86acdc0412c46e39bdab2813\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\3be899bd86acdc0412c46e39bdab2813\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\leona\.gradle\caches\transforms-3\475474ecd405d1840a28680fedc73256\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\leona\.gradle\caches\transforms-3\475474ecd405d1840a28680fedc73256\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\1e1d43ece5d607b075321234ff23fc29\transformed\play-services-measurement-sdk-21.3.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\1e1d43ece5d607b075321234ff23fc29\transformed\play-services-measurement-sdk-21.3.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\7cf7580271e1b475f53fc5bfc5a1ccc0\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\7cf7580271e1b475f53fc5bfc5a1ccc0\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\leona\.gradle\caches\transforms-3\5b281048dd28858dcf1fafb4173a6b39\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\leona\.gradle\caches\transforms-3\5b281048dd28858dcf1fafb4173a6b39\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\a333ca33158495344e1439de6804e288\transformed\play-services-measurement-base-21.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\a333ca33158495344e1439de6804e288\transformed\play-services-measurement-base-21.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\leona\.gradle\caches\transforms-3\fed972998367b57dd28464a9f7aaa594\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\leona\.gradle\caches\transforms-3\fed972998367b57dd28464a9f7aaa594\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\leona\.gradle\caches\transforms-3\c33bf3adb93f2f3090e16f19ecfdeedf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\leona\.gradle\caches\transforms-3\c33bf3adb93f2f3090e16f19ecfdeedf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\ed792ce98e2c7d5beec6cf047021b7c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\ed792ce98e2c7d5beec6cf047021b7c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:21:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:19:9-54
+	android:roundIcon
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:22:9-42
+	tools:targetApi
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:25:9-29
+	android:icon
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:20:9-37
+	android:allowBackup
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:24:9-44
+	android:dataExtractionRules
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:18:9-65
+activity#com.projete.telasprojete.SplashActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:26:9-34:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:28:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:29:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:27:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:36:9-38:69
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:38:13-66
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:37:13-58
+activity#com.projete.telasprojete.InicialActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:40:9-44:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:41:13-44
+activity#com.projete.telasprojete.NomeUserActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:46:9-50:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:49:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:47:13-45
+activity#com.projete.telasprojete.ConfigActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:53:9-57:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:55:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:56:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:54:13-43
+activity#com.projete.telasprojete.LoginActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:59:9-63:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:61:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:62:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:60:13-42
+activity#com.projete.telasprojete.Sign1Activity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:65:9-69:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:67:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:68:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:66:13-42
+activity#com.projete.telasprojete.SignActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:71:9-75:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:73:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:72:13-41
+activity#com.projete.telasprojete.UserMainActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:77:9-81:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:79:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:78:13-45
+activity#com.projete.telasprojete.MecanMainActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:83:9-87:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:85:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:86:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:84:13-46
+activity#com.projete.telasprojete.ModeActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:89:9-93:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:91:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:92:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:90:13-41
+activity#com.projete.telasprojete.EggActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:95:9-99:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:97:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:98:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:96:13-40
+activity#com.projete.telasprojete.VeiculoActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:101:9-105:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:103:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:104:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:102:13-44
+activity#com.projete.telasprojete.EstadoUserActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:108:9-112:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:110:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:111:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:109:13-47
+activity#com.projete.telasprojete.MecanicoActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:114:9-118:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:116:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:117:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:115:13-45
+activity#com.projete.telasprojete.NomeMecanicoActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:120:9-124:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:122:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:123:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:121:13-49
+activity#com.projete.telasprojete.MudarActivity
+ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:127:9-131:20
+	android:exported
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:129:13-36
+	android:theme
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:130:13-48
+	android:name
+		ADDED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml:128:13-42
+uses-sdk
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\leona\.gradle\caches\transforms-3\18b4c5cc71e1eaaaf58b4939e8390068\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\leona\.gradle\caches\transforms-3\18b4c5cc71e1eaaaf58b4939e8390068\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\7dbd04e58019cc35e4ccdb099962de03\transformed\activity-compose-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\7dbd04e58019cc35e4ccdb099962de03\transformed\activity-compose-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\a87bbfabdd7a4e8ed22e3f1e228e6677\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\a87bbfabdd7a4e8ed22e3f1e228e6677\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\ccbc957fec2eb4a8bab3fe5e28179410\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\ccbc957fec2eb4a8bab3fe5e28179410\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8bbc67403e85fac71189bea697ee2758\transformed\material-ripple-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8bbc67403e85fac71189bea697ee2758\transformed\material-ripple-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\f8599cd70be6edf5dedc1021580b8311\transformed\foundation-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\f8599cd70be6edf5dedc1021580b8311\transformed\foundation-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\5a97fbb09d740cd69910b16ea7f20743\transformed\animation-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\5a97fbb09d740cd69910b16ea7f20743\transformed\animation-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d1b3d053bf8b4ee1e74e9cfa5c2e0e45\transformed\foundation-layout-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d1b3d053bf8b4ee1e74e9cfa5c2e0e45\transformed\foundation-layout-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\c8d17a5d72f4b2abcf5aa3b07caebc3e\transformed\animation-core-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\c8d17a5d72f4b2abcf5aa3b07caebc3e\transformed\animation-core-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\b6024fc51b59705df5327902330ce6f7\transformed\material-icons-core-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\b6024fc51b59705df5327902330ce6f7\transformed\material-icons-core-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\3ae97633ee64f9bb1d9009ea33267de1\transformed\ui-tooling-data-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\3ae97633ee64f9bb1d9009ea33267de1\transformed\ui-tooling-data-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\eb9b45f3f59dc8299006a7be5b32d532\transformed\ui-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\eb9b45f3f59dc8299006a7be5b32d532\transformed\ui-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\1b60db37f2846bb83d86ef343b16e38c\transformed\ui-text-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\1b60db37f2846bb83d86ef343b16e38c\transformed\ui-text-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0d794c906a0c724e6b1bcea3333f21a9\transformed\ui-graphics-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0d794c906a0c724e6b1bcea3333f21a9\transformed\ui-graphics-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\a77319399bfc609c777fdeacf509ea44\transformed\ui-tooling-preview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\a77319399bfc609c777fdeacf509ea44\transformed\ui-tooling-preview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\014389d93acd29aaaeb797a7c527e8c1\transformed\runtime-saveable-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\014389d93acd29aaaeb797a7c527e8c1\transformed\runtime-saveable-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8dc49a4498f81a4eb51a3b878448b33c\transformed\ui-unit-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8dc49a4498f81a4eb51a3b878448b33c\transformed\ui-unit-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\2b906e96b5d2a0c78f23cd422a531d7a\transformed\ui-geometry-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\2b906e96b5d2a0c78f23cd422a531d7a\transformed\ui-geometry-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d083596dd50ddda9c6e08917c4a7e19e\transformed\runtime-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\d083596dd50ddda9c6e08917c4a7e19e\transformed\runtime-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\acf459cd85b12a1480a42abcc0fe8e69\transformed\activity-ktx-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\acf459cd85b12a1480a42abcc0fe8e69\transformed\activity-ktx-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\8199d44c08fed91330ba546709c3a4f7\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\8199d44c08fed91330ba546709c3a4f7\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\0392dedbd558c8bfae8636f875b827b3\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\0392dedbd558c8bfae8636f875b827b3\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\leona\.gradle\caches\transforms-3\1b0b5af5057cd55ac9d622b9ca14b3cf\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\leona\.gradle\caches\transforms-3\1b0b5af5057cd55ac9d622b9ca14b3cf\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\leona\.gradle\caches\transforms-3\83795d6646110c0bf6ce758ed0d01a74\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\leona\.gradle\caches\transforms-3\83795d6646110c0bf6ce758ed0d01a74\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\2f0dcdd062d4a3885576112c473751f6\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\2f0dcdd062d4a3885576112c473751f6\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\e0d50a3b0be79c48a47cd733744975c0\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\leona\.gradle\caches\transforms-3\e0d50a3b0be79c48a47cd733744975c0\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\a7d3aba71fd5a4fbb38f1d8231e3552d\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\a7d3aba71fd5a4fbb38f1d8231e3552d\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\leona\.gradle\caches\transforms-3\223474e9ba6eb2f382919acf5191776e\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\leona\.gradle\caches\transforms-3\223474e9ba6eb2f382919acf5191776e\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\leona\.gradle\caches\transforms-3\acff2749b21ccadb5f00285975ad3a27\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\leona\.gradle\caches\transforms-3\acff2749b21ccadb5f00285975ad3a27\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c04f306e5b35e88bd072f02fb64b490\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c04f306e5b35e88bd072f02fb64b490\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\3be899bd86acdc0412c46e39bdab2813\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\3be899bd86acdc0412c46e39bdab2813\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\leona\.gradle\caches\transforms-3\475474ecd405d1840a28680fedc73256\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\leona\.gradle\caches\transforms-3\475474ecd405d1840a28680fedc73256\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\1e1d43ece5d607b075321234ff23fc29\transformed\play-services-measurement-sdk-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\1e1d43ece5d607b075321234ff23fc29\transformed\play-services-measurement-sdk-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\7cf7580271e1b475f53fc5bfc5a1ccc0\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\7cf7580271e1b475f53fc5bfc5a1ccc0\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\a834bd6c2f109f287562721af36e0b6a\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\a834bd6c2f109f287562721af36e0b6a\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\leona\.gradle\caches\transforms-3\5b281048dd28858dcf1fafb4173a6b39\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\leona\.gradle\caches\transforms-3\5b281048dd28858dcf1fafb4173a6b39\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\a333ca33158495344e1439de6804e288\transformed\play-services-measurement-base-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\a333ca33158495344e1439de6804e288\transformed\play-services-measurement-base-21.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\leona\.gradle\caches\transforms-3\fed972998367b57dd28464a9f7aaa594\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\leona\.gradle\caches\transforms-3\fed972998367b57dd28464a9f7aaa594\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\leona\.gradle\caches\transforms-3\c33bf3adb93f2f3090e16f19ecfdeedf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\leona\.gradle\caches\transforms-3\c33bf3adb93f2f3090e16f19ecfdeedf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\leona\.gradle\caches\transforms-3\cda0f2c1d365fcc755e3010109030fe8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c4ae8b87f017e1e27a92f1a4cc55781\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\6c4ae8b87f017e1e27a92f1a4cc55781\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\.gradle\caches\transforms-3\84c02d170a0bb2c005e12e86be1d236e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\.gradle\caches\transforms-3\84c02d170a0bb2c005e12e86be1d236e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\1bfc5cb82e9368428776a1df17ddea3d\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\leona\.gradle\caches\transforms-3\1bfc5cb82e9368428776a1df17ddea3d\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\499d601a37b2b703da3b250036466691\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\499d601a37b2b703da3b250036466691\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\0b8a9556ad149442ae3ea8f827f6a25d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\0b8a9556ad149442ae3ea8f827f6a25d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\4b207afc35ec93f1d2fe5c3bb3d7812f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\4b207afc35ec93f1d2fe5c3bb3d7812f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4892b95c9281b811bff0367094378f66\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4892b95c9281b811bff0367094378f66\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\ee5351f3a49d79f133f9db89d24b4a9b\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\ee5351f3a49d79f133f9db89d24b4a9b\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\4d4f7d023f6728c7d1bbbf502056167c\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\4d4f7d023f6728c7d1bbbf502056167c\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\ea1ef38415d2136b84004708ba56f036\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\ea1ef38415d2136b84004708ba56f036\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\48dc93d3a19f68ffac87793965b61a45\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\48dc93d3a19f68ffac87793965b61a45\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\39cf200e8d54e80d6f32277765e8d47c\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\39cf200e8d54e80d6f32277765e8d47c\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0467df81e759db616a32a0708efc9cfd\transformed\ui-util-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\0467df81e759db616a32a0708efc9cfd\transformed\ui-util-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bfd220ba299595f55bbc83ceba4a43db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bfd220ba299595f55bbc83ceba4a43db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\54047f2534b8a3b3d2a39a627a5b1093\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\54047f2534b8a3b3d2a39a627a5b1093\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\40e8e53fc2aa585acd5457e6c6830647\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\40e8e53fc2aa585acd5457e6c6830647\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bf50c30de9f3baefe1aab466a7cbb8cc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\bf50c30de9f3baefe1aab466a7cbb8cc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\99a2b530e8c3eef829b83c47b3a259fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\99a2b530e8c3eef829b83c47b3a259fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\be8d37928f0ccff500f2404116968cc6\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\be8d37928f0ccff500f2404116968cc6\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\522b75b48daebe313b9c115b50b7c1b8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\522b75b48daebe313b9c115b50b7c1b8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\467cd62b173cf4b26dca8e2f5909bd66\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\467cd62b173cf4b26dca8e2f5909bd66\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\407a5e518f48608de73efe78d67f158b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\407a5e518f48608de73efe78d67f158b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\leona\.gradle\caches\transforms-3\969d41d62428ceefb837dbd8543079fb\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\leona\.gradle\caches\transforms-3\969d41d62428ceefb837dbd8543079fb\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\leona\.gradle\caches\transforms-3\22aff1c45786890f622ee870243a236e\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\9ff6e36a1f1ca75dce9ddb65560daaae\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\9ff6e36a1f1ca75dce9ddb65560daaae\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4eacd5cb2b16d395b8658dd0441eb426\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\4eacd5cb2b16d395b8658dd0441eb426\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leona\.gradle\caches\transforms-3\e5bae12216ab7cb6223b22ae0122b9ea\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leona\.gradle\caches\transforms-3\e5bae12216ab7cb6223b22ae0122b9ea\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\53c50e415b0a9b0c4ab789838be32846\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\leona\.gradle\caches\transforms-3\53c50e415b0a9b0c4ab789838be32846\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\41e60774082fc6a26c8507654993167a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\41e60774082fc6a26c8507654993167a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\ed792ce98e2c7d5beec6cf047021b7c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\ed792ce98e2c7d5beec6cf047021b7c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\d8990a2967ca0cf46dd8ba595a95458c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\d8990a2967ca0cf46dd8ba595a95458c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\2f940e7af22aa25dd7227bf2ca7736ce\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\leona\.gradle\caches\transforms-3\2f940e7af22aa25dd7227bf2ca7736ce\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\48323a43888a5356dfa853df1c8e108e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\48323a43888a5356dfa853df1c8e108e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\30db181158ffcb5c98c386c3aec39143\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\30db181158ffcb5c98c386c3aec39143\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\eba95af3c73a6e8508a72f043eea3a76\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\eba95af3c73a6e8508a72f043eea3a76\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\c313713a9ec115603975888c5e3c2c9c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\c313713a9ec115603975888c5e3c2c9c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\leona\.gradle\caches\transforms-3\4b8329bc72dd78af02fd63ff34dc4543\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\leona\.gradle\caches\transforms-3\4b8329bc72dd78af02fd63ff34dc4543\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\dedcef165bcf185deff1ec3389e9ac78\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\.gradle\caches\transforms-3\dedcef165bcf185deff1ec3389e9ac78\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\3d3db20d57f0050ab11c4d494805c76d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\leona\.gradle\caches\transforms-3\3d3db20d57f0050ab11c4d494805c76d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\leona\Projete2k23-main\Projete2k23\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\031e2d8f152820ed7cd7d6a5d3d668cf\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\f041f30ed42d77ed227bcbade3026cd8\transformed\firebase-analytics-ktx-21.3.0\AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\96372e84f8442e478a437bf2bcf914d3\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\d5424758103bbedd8178607cc4071104\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\leona\.gradle\caches\transforms-3\5ca9301061e093c951cdf463ee181251\transformed\recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\leona\.gradle\caches\transforms-3\ef5a837f0972e48ac31935e313199f81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:70:17-109
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\leona\.gradle\caches\transforms-3\8b516aaee4f3fe90043af6e95eb71345\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\leona\.gradle\caches\transforms-3\998231f75d0b78d8426252c60a0f62fa\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\leona\.gradle\caches\transforms-3\aefa7709b802291413f85bbaa9c0efe6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\leona\.gradle\caches\transforms-3\ee007789cb0ba26b6746e4b73ce99a6e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\leona\.gradle\caches\transforms-3\87c3ce267e5ab1779fc2f45a5928c6cb\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\e227e00a994d1358182e729e12aabe76\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\297448f4ca0808f1691f5baac8d039be\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] C:\Users\leona\.gradle\caches\transforms-3\ba73cb46c9b7bed2df40b0fc34f6885e\transformed\firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.3] C:\Users\leona\.gradle\caches\transforms-3\5f8d389af4eab2705905ef51df9874a4\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\79d582379c4b5455e9782e6744afb008\transformed\play-services-measurement-impl-21.3.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.3.0] C:\Users\leona\.gradle\caches\transforms-3\9ed35026d48ecc4f705030a391a240a7\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\.gradle\caches\transforms-3\b19338d788676283e8f71c305a27658b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\4b823184dc7235a37f19baf6e1df502c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\leona\.gradle\caches\transforms-3\7ac4d9dcb3ab26567f0d81b12cb89860\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\leona\.gradle\caches\transforms-3\3295654e321e7da64cd615dc236a7d67\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82

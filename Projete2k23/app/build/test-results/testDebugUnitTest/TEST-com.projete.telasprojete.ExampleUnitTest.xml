@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.projete.telasprojete.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-08T17:18:20" hostname="LAPTOP-G1LVAH0M" time="0.005">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.projete.telasprojete.ExampleUnitTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
