@@ -26,14 +26,9 @@ class UserMainActivity : ComponentActivity() {
             val intent_mudar = Intent(this, MudarActivity::class.java)
             startActivity(intent_mudar)
         }
-        val click_mapa = findViewById<ImageButton>(R.id.btnMapa)
-        click_mapa.setOnClickListener {
-            val intent_mapa = Intent(this, MapaActivity::class.java)
-            startActivity(intent_mapa)
-        }
         val click_voltar = findViewById<ImageButton>(R.id.btnLista)
         click_voltar.setOnClickListener {
-            val intent_modo = Intent(this, ModeActivity::class.java)
+            val intent_modo = Intent(this, ConfigActivity::class.java)
             startActivity(intent_modo)
         }
     }

@@ -28,11 +28,11 @@ class ModeActivity : ComponentActivity() {
 
         btn_confirmar!!.setOnClickListener {
             if(radio_user!!.isChecked){
-                val intent_princ = Intent(this, UserMainActivity::class.java)
+                val intent_princ = Intent(this, NomeUserActivity::class.java)
                 startActivity(intent_princ)
             }
             else if(radio_mecan!!.isChecked){
-                val intent_princ = Intent(this, MecanMainActivity::class.java)
+                val intent_princ = Intent(this, NomeMecanicoActivity::class.java)
                 startActivity(intent_princ)
             }
             else{
