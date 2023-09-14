@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439199896758",
+    "project_id": "solid-1d7d5",
+    "storage_bucket": "solid-1d7d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439199896758:android:e69ddeb13f3a09729bc217",
+        "android_client_info": {
+          "package_name": "com.projete.telasprojete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439199896758-rd8un63stb517v78telekf1dq2hpt4e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsC0qY0dd54lUumcYeQrCz7zuKo18FIIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439199896758-go5at1sedid55g1b5pmtt57tv1senm8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
