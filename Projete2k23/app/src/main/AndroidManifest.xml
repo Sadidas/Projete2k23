@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.projete.telasprojete">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -27,7 +29,6 @@
             android:theme="@style/TelasProjete">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -37,75 +38,94 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
+            android:name=".InicialActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
+            android:name=".NomeUserActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
+            android:name=".ConfigActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
+            android:name=".Sign1Activity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
+            android:name=".SignActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
+        <activity
             android:name=".UserMainActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
         <activity
             android:name=".MecanMainActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
         <activity
             android:name=".ModeActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
+        <activity
+            android:name=".EggActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
         <activity
             android:name=".VeiculoActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
         <activity
-            android:name=".MapaActivity"
+            android:name=".EstadoUserActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
         <activity
             android:name=".MecanicoActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
+        <activity
+            android:name=".NomeMecanicoActivity"
+            android:exported="true"
+            android:theme="@style/TelasProjete">
+        </activity>
+
         <activity
             android:name=".MudarActivity"
             android:exported="true"
             android:theme="@style/TelasProjete">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>
