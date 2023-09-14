@@ -209,15 +209,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
 
-            <ImageButton
-                android:id="@+id/btnMapa"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:adjustViewBounds="true"
-                android:background="@drawable/button_background"
-                android:contentDescription="@string/botao_mapa"
-                android:scaleType="fitCenter"
-                android:src="@drawable/mapa_botao" />
         </TableRow>
 
         <TableRow
@@ -236,15 +227,6 @@
 
             <Space></Space>
 
-            <TextView
-                android:id="@+id/tvbtn4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/botao_mapa"
-                android:fontFamily="@font/intermedium"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="17sp" />
         </TableRow>
 
     </TableLayout>

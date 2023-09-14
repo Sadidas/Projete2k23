@@ -46,6 +46,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="187dp" />
 
+    <ImageButton
+        android:id="@+id/btnvoltar"
+        android:layout_width="56dp"
+        android:layout_height="67dp"
+        android:background="@color/white"
+        android:contentDescription="Icone Lista"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/setalaranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+
     <TextView
         android:id="@+id/tvErro"
         android:layout_width="wrap_content"
@@ -53,7 +70,7 @@
         android:textSize="30sp"
         android:visibility="invisible"
         android:text="ERRO: Escolha uma das opções"
-        android:textColor="@color/Vermelhaço"
+        android:textColor="@color/vermelhaço"
         app:layout_constraintBottom_toBottomOf="@+id/space"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/space"
