@@ -5,25 +5,256 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TELA DO MECÂNICO 100% PRONTA"
-        android:textColor="@color/laranja_primario"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnVoltar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="VOLTAR"
-        android:textSize="50sp"
-        android:background="@drawable/botao_parrearlaran"
+    <Space
+        android:id="@+id/spcEmcimaCirculo"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwRetanLaran"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:background="@drawable/retangulolaranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwBolaBranca"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/bolabranca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spcEmcimaCirculo" />
+
+    <View
+        android:id="@+id/vwBolaLaranja"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:background="@drawable/bolalaranja"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaBranca"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaBranca"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaBranca"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaBranca" />
+
+    <TextView
+        android:id="@+id/tvLetrona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaLaranja"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaLaranja"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaLaranja"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaLaranja" />
+
+    <ImageButton
+        android:id="@+id/btnLista"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/botao_icone"
+        android:paddingTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Lista_botao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnCarta"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/botao_carta"
+        android:paddingEnd="5dp"
+        android:paddingStart="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Correiozin_botao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vwBolaAzulCarta"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bolaazul"
+        app:layout_constraintEnd_toEndOf="@id/btnCarta"
+        app:layout_constraintTop_toTopOf="@id/btnCarta" />
+
+    <TextView
+        android:id="@+id/tvNumeroNotificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/notificacoes_num"
+        android:textColor="#efefef"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintEnd_toEndOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintStart_toStartOf="@+id/vwBolaAzulCarta"
+        app:layout_constraintTop_toTopOf="@+id/vwBolaAzulCarta" />
+
+    <TextView
+        android:id="@+id/tvIntroducao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interblack"
+        android:text="@string/ola"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwBolaBranca" />
+
+    <TextView
+        android:id="@+id/tvIntroducao2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/intermedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIntroducao" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="56dp"
+        android:paddingEnd="43dp"
+        android:paddingBottom="50dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--android:paddingBottom="48dp"-->
+
+
+            <ImageButton
+                android:id="@+id/btnOficina"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:contentDescription="Botão oficina"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/oficina" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btnClientes"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"
+                android:contentDescription="Botão Clientes"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/clientes" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intermedium"
+                android:text="Sua Oficina"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Space android:layout_height="48dp" />
+
+            <TextView
+                android:id="@+id/tvbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intermedium"
+                android:text="Seus Clientes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnInutil"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/interblack"
+                android:text="Botão Inutil"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btnHistorico"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                app:srcCompat="@drawable/historico"
+                android:contentDescription="Botão Histórico"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvbtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intermedium"
+                android:text="Botão Inutil"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Space></Space>
+
+            <TextView
+                android:id="@+id/tvbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intermedium"
+                android:text="Histórico"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

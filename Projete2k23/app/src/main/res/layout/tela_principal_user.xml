@@ -23,7 +23,6 @@
         android:layout_height="180dp"
         android:background="@drawable/bolabranca"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/space4" />
 
@@ -79,7 +78,7 @@
         android:contentDescription="@string/botao_icone"
         android:paddingTop="8dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/lista_botao"
+        android:src="@drawable/Lista_botao"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -115,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/usuario"
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
         android:textSize="100sp"
         app:layout_constraintBottom_toBottomOf="@+id/vwBolaLaranja"
         app:layout_constraintEnd_toEndOf="@+id/vwBolaLaranja"
@@ -128,7 +127,7 @@
         android:layout_height="wrap_content"
         android:paddingStart="56dp"
         android:paddingEnd="43dp"
-        android:paddingBottom="75dp"
+        android:paddingBottom="50dp"
         android:stretchColumns="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -201,23 +200,24 @@
                 android:layout_height="125dp"
                 android:adjustViewBounds="true"
                 android:background="@drawable/button_background"
+                android:contentDescription="@string/botao_mudar"
                 android:scaleType="fitCenter"
-                android:src="@drawable/mudar_botao"
-                android:contentDescription="@string/botao_mudar" />
+                android:src="@drawable/mudar_botao" />
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
 
             <ImageButton
-                android:id="@+id/btnMapa"
+                android:id="@+id/btnHistorico"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
-                android:adjustViewBounds="true"
-                android:background="@drawable/button_background"
-                android:contentDescription="@string/botao_mapa"
+                app:srcCompat="@drawable/historico"
+                android:contentDescription="Botão Histórico"
                 android:scaleType="fitCenter"
-                android:src="@drawable/mapa_botao" />
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_background"/>
+
         </TableRow>
 
         <TableRow
@@ -240,7 +240,7 @@
                 android:id="@+id/tvbtn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/botao_mapa"
+                android:text="Histórico"
                 android:fontFamily="@font/intermedium"
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -256,7 +256,6 @@
         app:layout_constraintEnd_toStartOf="@+id/btnCarta"
         app:layout_constraintStart_toEndOf="@+id/btnLista"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
