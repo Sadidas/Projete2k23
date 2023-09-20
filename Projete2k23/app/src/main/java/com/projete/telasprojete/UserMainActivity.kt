@@ -31,5 +31,10 @@ class UserMainActivity : ComponentActivity() {
             val intent_modo = Intent(this, ConfigActivity::class.java)
             startActivity(intent_modo)
         }
+        val click_historico = findViewById<ImageButton>(R.id.btnHistorico)
+        click_historico.setOnClickListener {
+            val intent_historico = Intent(this, HistoricoUserActivity::class.java)
+            startActivity(intent_historico)
+        }
     }
 }
