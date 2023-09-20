@@ -1,0 +1,24 @@
+themes.xml
+
+com.projete:
+edit NomeMecanicoActivity
+edit UserMainActivity
+edit MecanMainActivity
+add OficinaActivity
+add ClientesActivity
+add HistoricoUserActivity
+add HistoricoMecanActivity
+
+drawable:
+add historico
+add oficina
+add cliente
+remove mapa
+
+layout:
+add tela_oficina
+add tela_clientes
+add tela_historico_user
+add tela_historico_mecan
+edit tela_principal_user
+edit tela_principal_mecan
