@@ -5,23 +5,19 @@ import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.graphics.Bitmap
-import android.graphics.Canvas
 import android.net.Uri
 import android.os.Build
 import androidx.activity.ComponentActivity
 import android.os.Bundle
-import android.os.Environment
 import android.provider.MediaStore
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
-import android.widget.Toast
+import android.widget.TextView
 import androidx.core.content.ContextCompat
-import java.io.File
-import java.io.FileOutputStream
-import java.io.OutputStream
+import com.bumptech.glide.Glide
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 
 class VeiculoActivity : ComponentActivity() {
@@ -31,21 +27,106 @@ class VeiculoActivity : ComponentActivity() {
 
     private var imageUri: Uri? = null
     private var imageView: ImageView? = null
+
     private var botao_foto: ImageButton? = null
     private var botao_mais: Button? = null
+
+    lateinit var modelo: TextView
+    lateinit var marca: TextView
+    lateinit var ano: TextView
+    lateinit var cidade:TextView
+    lateinit var estado:TextView
+
+    val fireStoreDatabase = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_seuveiculo)
 
+        modelo = findViewById(R.id.modelo)
+        marca = findViewById(R.id.marca)
+        ano = findViewById(R.id.ano)
+        cidade = findViewById(R.id.cidade)
+        estado = findViewById(R.id.estado)
 
-        findViewById<ImageButton>(R.id.btnLista).setOnClickListener {
-            val bitmap = pegarImageDeView(imageView!!)
-            if(bitmap != null) {
-                salvarNaMemoria(bitmap)
+        val usuario_atual = FirebaseAuth.getInstance().currentUser?.uid.toString()
+
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Modelo"))
+                    modelo.setText(resultado.toString())
+                }
             }
 
-            val intent_princ = Intent(this, MainActivity::class.java)
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Marca"))
+                    marca.setText(resultado.toString())
+                }
+            }
+
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Ano"))
+                    ano.setText(resultado.toString())
+                }
+            }
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Cidade"))
+                    cidade.setText(resultado.toString())
+                }
+            }
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Estado"))
+                    estado.setText(resultado.toString())
+                }
+            }
+
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("URL"))
+                    Glide.with(this).load(resultado.toString()).into(imageView!!)
+                    botao_foto!!.visibility = Button.INVISIBLE
+                    imageView!!.visibility = ImageView.VISIBLE
+                    botao_mais!!.visibility = Button.VISIBLE
+                }
+            }
+
+
+        findViewById<ImageButton>(R.id.btnvoltar).setOnClickListener {
+            val intent_princ = Intent(this, UserMainActivity::class.java)
             startActivity(intent_princ)
         }
 
@@ -64,10 +145,8 @@ class VeiculoActivity : ComponentActivity() {
         }
 
         botao_mais!!.setOnClickListener {
-            val permissao_dada = pedirPermissaoCamera()
-            if (permissao_dada){
-                abrir_interface_camera()
-            }
+            val intent = Intent(this, FotoActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -111,47 +190,4 @@ class VeiculoActivity : ComponentActivity() {
             imageView?.setImageURI(imageUri)
         }
     }
-
-    private fun pegarImageDeView(imageView: ImageView): Bitmap? {
-
-        var imagem: Bitmap? = null
-        try{
-            imagem = Bitmap.createBitmap(imageView.measuredWidth, imageView.measuredHeight, Bitmap.Config.ARGB_8888)
-            val canvas = Canvas(imagem)
-            imageView.draw(canvas)
-        }
-        catch (e: Exception){
-            Log.e("Erro", "Falhou em salvar a imagem")
-        }
-        return imagem
-    }
-
-    private fun salvarNaMemoria(bitmap: Bitmap) {
-
-        val nome_imagem = "carro_${System.currentTimeMillis()}.jpg"
-        var fos: OutputStream? = null
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q){
-            this.contentResolver?.also {resolver ->
-                val valor_content = ContentValues().apply {
-                    put(MediaStore.MediaColumns.DISPLAY_NAME, nome_imagem)
-                    put(MediaStore.MediaColumns.MIME_TYPE, "image/jpg")
-                    put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES)
-                }
-                imageUri = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, valor_content)
-                fos = imageUri?.let{
-                    resolver.openOutputStream(imageUri!!)
-                }
-            }
-        }
-        else{
-            val diretorio_da_imagem = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
-            val imagem = File(diretorio_da_imagem, nome_imagem)
-            fos = FileOutputStream(imagem)
-        }
-        fos?.use {
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, it)
-            Toast.makeText(this, "Imagem foi salva corretamente", Toast.LENGTH_LONG).show()
-            }
-        }
-    }
-
+}
