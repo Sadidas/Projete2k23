@@ -19,7 +19,6 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.projete.telasprojete.databinding.TelaLogin0Binding
-import com.projete.telasprojete.databinding.TelaPrincipalBinding
 
 
 class LoginActivity : ComponentActivity() {
@@ -120,5 +119,4 @@ class LoginActivity : ComponentActivity() {
         }
 
     }
-
 }

@@ -6,22 +6,34 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.ComponentActivity
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class MecanMainActivity : ComponentActivity() {
 
-    private var letrona: TextView? = null
-    private var nome_do_user: String = intent.getStringExtra("Nome_user").toString()
-    private var primeira_letra: Char = nome_do_user.first()
-
+    val fireStoreDatabase = FirebaseFirestore.getInstance()
+    lateinit var letrona: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_principal_mecan)
-
+        
         letrona = findViewById(R.id.tvLetrona)
-        letrona!!.text = primeira_letra.toString()
+        val usuario_atual = FirebaseAuth.getInstance().currentUser?.uid.toString()
 
-        val click_lista = findViewById<ImageButton>(R.id.btnLista)
+        fireStoreDatabase.collection("Usuarios")
+            .document(usuario_atual)
+            .get()
+            .addOnCompleteListener {
+
+                val resultado: StringBuffer = StringBuffer()
+                if (it.isSuccessful){
+                    resultado.append(it.result.data?.getValue("Nome"))
+                    letrona.setText(resultado.toString().first().toString())
+                }
+            }
+
+        val click_lista = findViewById<ImageButton>(R.id.btnvoltar)
         click_lista.setOnClickListener {
             val intent_lista = Intent(this, ConfigActivity::class.java)
             startActivity(intent_lista)
@@ -41,9 +53,9 @@ class MecanMainActivity : ComponentActivity() {
             val intent_inutil = Intent(this, EggActivity::class.java)
             startActivity(intent_inutil)
         }
-        val click_historico = findViewById<ImageButton>(R.id.btnHistorico)
+        val click_historico = findViewById<ImageButton>(R.id.perfil)
         click_historico.setOnClickListener {
-            val intent_historico_mecan = Intent(this, HistoricoMecanActivity::class.java)
+            val intent_historico_mecan = Intent(this, Perfil1Activity::class.java)
             startActivity(intent_historico_mecan)
         }
 

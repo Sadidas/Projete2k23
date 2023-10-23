@@ -1,7 +1,6 @@
 package com.projete.telasprojete
 
 import android.content.Intent
-import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -12,20 +11,20 @@ import android.widget.Spinner
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.projete.telasprojete.databinding.TelaEstadoBinding
+import com.projete.telasprojete.databinding.TelaEstado1Binding
 
-class EstadoUserActivity : AppCompatActivity() {
+class EstadoMecanicoActivity : AppCompatActivity() {
     val Tag: String = "FIRESTORE"
     lateinit var spinner: Spinner
     lateinit var adapter:ArrayAdapter<String>
-    private lateinit var binding: TelaEstadoBinding
+    private lateinit var binding: TelaEstado1Binding
     val fireStoreDatabase = FirebaseFirestore.getInstance()
     private var opcaoEscolhida: String = ""
     private var opcaoEscolhida1: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = TelaEstadoBinding.inflate(layoutInflater)
+        binding = TelaEstado1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         var data = arrayListOf<String>(
@@ -79,11 +78,11 @@ class EstadoUserActivity : AppCompatActivity() {
         }
         binding.btnenviar.setOnClickListener(){
             postar_firestore(opcaoEscolhida, opcaoEscolhida1)
-            val intent = Intent(this, ModeloCarroActivity::class.java)
+            val intent = Intent(this, FotoMecActivity::class.java)
             startActivity(intent)
         }
         binding.btnvoltar.setOnClickListener {
-            val intent = Intent(this, NomeUserActivity::class.java)
+            val intent = Intent(this, NomeOficinaActivity::class.java)
             startActivity(intent)
         }
     }
@@ -92,7 +91,7 @@ class EstadoUserActivity : AppCompatActivity() {
         val custom_id1 = FirebaseAuth.getInstance().currentUser?.uid.toString()
         modeloData["Estado"] = estado
         modeloData["Cidade"] = cidade
-        modeloData["Mecanico"] = false
+        modeloData["Mecanico"] = true
 
         fireStoreDatabase.collection("Usuarios")
             .document(custom_id1)
